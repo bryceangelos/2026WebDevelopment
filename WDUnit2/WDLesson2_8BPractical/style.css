@@ -1,2 +1,104 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+
+
+#banner {
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+#banner {
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    color: darkblue;
+}
+
+#banner div {
+    font-size: 15px;
+}
+
+
+
+#nav {
+    height: 39px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Body */
+#body {
+    height: 198px;
+    display: flex;
+}
+
+
+#links {
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 2px solid #ccc;
+    box-shadow: 2px 2px 3px gray;
+}
+
+#links a {
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 5px 9px;
+}
+
+
+#main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main h1 {
+    font-size: 32px;
+}
+
+
+#sample {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sample h1 {
+    font-size: 32px;
+}
+
+
+#footer {
+    height: 34px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p {
+    font-size: 11px;
+    font-weight: bold;
+}
